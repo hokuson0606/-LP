@@ -25,6 +25,10 @@ html {
    list-style: none;
  }
 
+header{
+   position: fixed;
+}
+
 
 .header-logo{
    width: 1200px;
