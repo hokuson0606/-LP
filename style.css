@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+html {
+   font-size: 100%;
+   font-style: Noto Sans Jp;
+   
+ }
+ body {
+   color: #24292e;
+   margin: 0;
+ }
+ a {
+   text-decoration: none;
+   font-size: 14px;
+   color: white;
+ }
+
+ h2{
+    font-size: 16px;
+ }
+ img {
+   max-width: 100%;
+ }
+ li {
+   list-style: none;
+ }
+
+
+.header-logo{
+   width: 1200px;
+   margin: 0 auto;
+}
+
+.header-menu{
+
+   color: white;
+   background-color: #24292e;
+   margin-bottom:50px; 
+}
+
+.header-menu ul{
+   width: 1200px;
+   display: flex;
+   margin: 0 auto;
+   padding: 0;
+}
+
+.header-menu li{
+   padding: 8px 55px 8px 5px;
+}
+
+ .container{
+   width: 1200px;
+   padding: 0 16px;
+   margin: 0 auto;
+ }
+
+ .pickup ul{
+    display: flex;
+ }
+
+ .pickup img{
+   width: 92%;
+   height: 210px;
+ }
+
