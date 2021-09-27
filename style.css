@@ -26,7 +26,11 @@ html {
  }
 
 header{
+   width: 100%;
+   height: 100px;
+   /* background-color: aliceblue; */
    position: fixed;
+   background-color: white;
 }
 
 
@@ -54,9 +58,10 @@ header{
 }
 
  .container{
-   width: 1200px;
-   padding: 0 16px;
+   width: 85%;
+   padding: 120px 16px 0 16px;
    margin: 0 auto;
+   height: 1000px;
  }
 
  .pickup ul{
@@ -68,3 +73,26 @@ header{
    height: 210px;
  }
 
+ .pickup h2{
+  width: 92%;
+ }
+
+.readmore{
+   text-align:center
+}
+
+
+ .pickup a{
+    color: #24292e;
+    padding-bottom: 1px;
+    border-bottom: #24292e;
+
+ }
+
+ .left{
+    width: 65%;
+ }
+
+ .right{
+    width: 30%;
+ }
