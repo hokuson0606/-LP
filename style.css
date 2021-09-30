@@ -15,6 +15,14 @@ html {
    color: white;
  }
 
+ p{
+    font-size: 14px;
+ }
+
+ h1{
+    font-size: 24px;
+ }
+
  h2{
     font-size: 16px;
  }
@@ -58,7 +66,7 @@ header{
 }
 
  .container{
-   width: 85%;
+   width: 75%;
    padding: 120px 16px 0 16px;
    margin: 0 auto;
    height: 1000px;
@@ -66,6 +74,7 @@ header{
 
  .pickup ul{
     display: flex;
+    padding: 0;  
  }
 
  .pickup img{
@@ -78,9 +87,16 @@ header{
  }
 
 .readmore{
-   text-align:center
+   margin-bottom: 40px;
+   text-align: center;
+  
 }
 
+.readmore a{
+   color:#24292e;
+   padding-bottom: 1px;
+   border-bottom: #24292e solid;
+}
 
  .pickup a{
     color: #24292e;
@@ -95,4 +111,30 @@ header{
 
  .right{
     width: 30%;
+ }
+
+ .date{
+    display: flex;
+ }
+
+ .title h1{
+    margin: 0 0 10px;
+ }
+
+ .date p{
+   padding-right: 20px;
+   margin: 0 0 10px;
+ }
+
+ .mainvisual-img{
+    margin-bottom: 10px;
+ }
+
+ .mainvisual-txt{
+   width: 90%;
+    margin: 0 auto 30px;
+ }
+
+ .mainvisual{
+    margin-bottom: 80px;
  }
