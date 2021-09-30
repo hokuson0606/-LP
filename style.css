@@ -26,6 +26,10 @@ html {
  h2{
     font-size: 16px;
  }
+
+ h3{
+    font-size: 18px;
+ }
  img {
    max-width: 100%;
  }
@@ -105,12 +109,17 @@ header{
 
  }
 
+ .two-column{
+    display: flex;
+ }
+
  .left{
     width: 65%;
  }
 
  .right{
     width: 30%;
+    margin: 0 auto;
  }
 
  .date{
@@ -138,3 +147,35 @@ header{
  .mainvisual{
     margin-bottom: 80px;
  }
+
+ .sub-img{
+   width: 130px;
+  
+   margin: 0 auto 30px;
+ }
+
+ .title{
+    text-align: center;
+    margin-bottom: 30px;
+ }
+
+ .profile{
+    margin-bottom: 60px;
+ }
+
+.ranking{
+   margin-bottom: 30px;
+}
+
+.ranking p{
+   margin: 0;
+}
+
+.border{
+   border-bottom: solid 1px #24292e;
+   width: 100%;
+}
+
+.Archive p{
+   margin: 20px ;
+}
