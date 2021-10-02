@@ -69,11 +69,12 @@ header{
    padding: 8px 55px 8px 5px;
 }
 
+
  .container{
    width: 75%;
    padding: 120px 16px 0 16px;
    margin: 0 auto;
-   height: 1000px;
+   
  }
 
  .pickup ul{
@@ -101,14 +102,6 @@ header{
    padding-bottom: 1px;
    border-bottom: #24292e solid;
 }
-
- .pickup a{
-    color: #24292e;
-    padding-bottom: 1px;
-    border-bottom: #24292e;
-
- }
-
  .two-column{
     display: flex;
  }
@@ -181,7 +174,25 @@ header{
 }
 
 footer{
-   position: absolute;
-    bottom: 0; 
    background-color: #f7f7f7;
+   margin-top: 120px;
+   display: flex;
+}
+
+footer .container{
+   width: 75%;
+   padding: 0px 16px 0 16px;
+   margin: 0 auto;
+   display: flex;
+}
+
+.footer-contents{
+   margin: 0;
+   padding-top: 20px;
+   width: 30%;
+   
+}
+   
+.footer{
+
 }
