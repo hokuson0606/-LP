@@ -219,3 +219,26 @@ footer .container {
   font-size: 12px;
   padding: 10px 0;
 }
+
+@media screen and (max-width: 540px) {
+  .header-menu {
+    position: fixed;
+    overflow-y: scroll;
+    color: white;
+    background-color: #24292e;
+    margin-bottom: 50px;
+  }
+
+  .header-menu ul {
+    display: flex;
+    white-space: nowrap;
+    overflow-x: auto;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .header-menu li {
+    display: table-cell;
+    padding: 8px 55px 8px 5px;
+  }
+}
