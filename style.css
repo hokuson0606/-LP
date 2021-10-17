@@ -170,12 +170,13 @@ header {
 footer {
   background-color: #f7f7f7;
   margin-top: 120px;
+  padding-bottom: 5px;
 }
 
 footer .container {
   width: 85%;
   padding: 0px 16px 0 16px;
-  margin: 0 auto;
+  margin: 0 auto 50px;
   display: flex;
 }
 
@@ -208,4 +209,13 @@ footer .container {
 .footer-contents,
 .Archive p {
   margin: 15px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.copyright p {
+  font-size: 12px;
+  padding: 10px 0;
 }
