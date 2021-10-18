@@ -45,7 +45,7 @@ header {
 }
 
 .header-logo {
-  width: 1200px;
+  padding: 10px 0 10px 15px;
   margin: 0 auto;
 }
 
@@ -63,7 +63,7 @@ header {
 }
 
 .header-menu li {
-  padding: 8px 55px 8px 5px;
+  padding: 8px 50px 8px 20px;
 }
 
 .container {
@@ -213,10 +213,11 @@ footer .container {
 
 .copyright {
   text-align: center;
+  margin-top: 80px;
+  font-size: 12px;
 }
 
 .copyright p {
-  font-size: 12px;
   padding: 10px 0;
 }
 
@@ -227,5 +228,39 @@ footer .container {
 
   .header-logo ul {
     width: none;
+  }
+
+  .pickup ul {
+    flex-direction: column;
+  }
+
+  .header-menu ul {
+    width: 0;
+    margin: 0;
+  }
+
+  .pickup img {
+    width: 100%;
+  }
+  .two-column {
+    flex-direction: column;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  footer .container {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .footer-contents {
+    width: 100%;
+    margin: 0;
   }
 }
