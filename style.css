@@ -221,7 +221,7 @@ footer .container {
   padding: 10px 0;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 840px) {
   .header-menu {
     overflow-x: scroll;
   }
